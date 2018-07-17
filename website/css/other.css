@@ -1,7 +1,8 @@
 p {
 	font-family: verdana;
 	padding: 10px;
-	font-size: 20px
+	font-size: 20px;
+	float: left;
 }
 
 div {
@@ -14,34 +15,13 @@ div {
 img {
 	max-height:100%;
 	max-width: 35%;
+	float: left;
 }
 
 div.special {
 	background-color:red;
 }
 
-div.special p {
-	float: left;
-}
-
 div.notspecial {
 	background-color:green;
-}
-
-div.notspecial p {
-	float: left;
-}
-
-img.pic1 {
-	float: left;
-}
-
-img.pic2 {
-	float: left;
-}
-
-div.clear {
-	height: 0px;
-	clear: both;
-	padding: 0px;
 }
