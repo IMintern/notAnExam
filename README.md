@@ -2,7 +2,7 @@
 hey ninjas!
 
 # How To
-Download files
+Download files <br>
 Navigate to directory in console
 npm install
 nodemon app.js
