@@ -1,44 +1,47 @@
 p {
 	font-family: verdana;
 	padding: 10px;
-	float: right;
+	font-size: 20px
 }
 
-div.special {
-	background-color:blue;
-	width:50%;
-	text-align:center;
-	float:left;
-	overflow:auto;
-	height: 200px;
-
-}
-
-div:hover {
-	background-color: red;
-}
-
-div.notspecial {
-	background-color:orange;
-	width:50%;
-	font-size:40px;
-	float:left;
-	overflow:auto;
+div {
 	height: 200px;
 	padding: 10px;
+	overflow:hidden;
 	box-sizing: border-box;
 }
 
-div.notspecial p {
-	float:left;
+img {
+	max-height:100%;
+	max-width: 35%;
 }
 
-#goat {
+div.special {
+	background-color:dodgerblue;
+}
+
+div.special p {
 	float: left;
-	max-width: 35%
 }
 
-#ninja {
-	max-width: 20%;
+div.notspecial {
+	background-color:darkorange;
+}
+
+div.notspecial p {
+	float: left;
+}
+
+img.pic1 {
+	float: left;
+}
+
+img.pic2 {
 	float: right;
+}
+
+div.clear {
+	height: 0px;
+	clear: both;
+	padding: 0px;
 }
