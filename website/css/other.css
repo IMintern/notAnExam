@@ -1,0 +1,47 @@
+p {
+	font-family: verdana;
+	padding: 10px;
+	font-size: 20px
+}
+
+div {
+	height: 200px;
+	padding: 10px;
+	overflow:hidden;
+	box-sizing: border-box;
+}
+
+img {
+	max-height:100%;
+	max-width: 35%;
+}
+
+div.special {
+	background-color:red;
+}
+
+div.special p {
+	float: left;
+}
+
+div.notspecial {
+	background-color:green;
+}
+
+div.notspecial p {
+	float: left;
+}
+
+img.pic1 {
+	float: left;
+}
+
+img.pic2 {
+	float: left;
+}
+
+div.clear {
+	height: 0px;
+	clear: both;
+	padding: 0px;
+}
