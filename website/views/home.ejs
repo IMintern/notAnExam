@@ -2,10 +2,19 @@
 <html>
 <head>
 	<title>hey ninjas</title>
-	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link id="changeme" rel="stylesheet" type="text/css" href="/css/style.css">
 	<script type="text/javascript" src="/js/func.js"></script>
 </head>
 <body>
-	<p>hey ninjas</p>
+	
+	<div class = "special" class = "clearfix"><p>hey ninjas</p>
+		<img id = "goat" src = "/assets/goat.jpg">
+	</div>
+
+	<div class = "notspecial" class = "clearfix">
+		<p id = "wow">I'm not a ninja</p>
+		<img id = "ninja" src = "/assets/ninja.png">
+	</div>
+<button onclick = "document.getElementById('changeme').href='/css/otherstyle.css'">Click Me! </button>
 </body>
 </html>
